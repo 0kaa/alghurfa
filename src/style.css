@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#section-1 .owl-prev,
+#section-1 .owl-next {
+  @apply bg-primary lg:w-[90px] lg:h-[90px] w-[35px] h-[35px] rounded-full flex items-center justify-center text-black lg:text-4xl text-lg;
+}
+
+#section-1 .owl-prev {
+  @apply absolute -translate-y-1/2 lg:left-0 -left-10 top-1/2;
+}
+#section-1 .owl-next {
+  @apply absolute -translate-y-1/2 lg:right-0 -right-10 top-1/2;
+}
+#section-1 .owl-dots {
+  @apply flex items-center justify-center gap-2 mt-5;
+}
+#section-1 .owl-dot {
+  @apply bg-gray-300 w-[50px] h-[5px] rounded-full;
+}
+#section-1 .owl-dot.active {
+  @apply bg-primary;
+}
+
+.archive-filter-list {
+  display: none;
+  z-index: 10;
+}
+
+.archive-filter-item.active .archive-filter-list {
+  display: block;
+}
+
+.overlay {
+  display: none;
+}
+.overlay.active {
+  display: block;
+}
+.paginate-item.active {
+  @apply !bg-primary;
+}
+
+.menu-list.active {
+  @apply top-0;
+}
+.filter-menu.active {
+  @apply bottom-0;
+}
