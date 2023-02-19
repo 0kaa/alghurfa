@@ -19,14 +19,14 @@ html {
 #section-1 .owl-next {
   @apply absolute -translate-y-1/2 lg:right-0 -right-10 top-1/2;
 }
-#section-1 .owl-dots {
-  @apply flex items-center justify-center gap-2 mt-5;
+.owl-carousel .owl-dots {
+  @apply flex items-center justify-between gap-2 mt-5;
 }
-#section-1 .owl-dot {
-  @apply bg-gray-300 w-[50px] h-[5px] rounded-full;
+.owl-carousel .owl-dot {
+  @apply !bg-gray-300 w-[50px] h-[5px] rounded-full flex-1;
 }
-#section-1 .owl-dot.active {
-  @apply bg-primary;
+.owl-carousel .owl-dot.active {
+  @apply !bg-primary;
 }
 
 .archive-filter-list {
