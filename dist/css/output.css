@@ -1486,6 +1486,11 @@ html {
   color: rgb(252 234 16 / var(--tw-text-opacity));
 }
 
+.hover\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .hover\:text-opacity-50:hover {
   --tw-text-opacity: 0.5;
 }
@@ -1895,6 +1900,10 @@ html {
     margin-bottom: 74px;
   }
 
+  .lg\:mt-14 {
+    margin-top: 3.5rem;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -2007,6 +2016,26 @@ html {
 
   .lg\:gap-4 {
     gap: 1rem;
+  }
+
+  .lg\:gap-\[80\] {
+    gap: 80;
+  }
+
+  .lg\:gap-\[80px\] {
+    gap: 80px;
+  }
+
+  .lg\:gap-14 {
+    gap: 3.5rem;
+  }
+
+  .lg\:gap-16 {
+    gap: 4rem;
+  }
+
+  .lg\:gap-8 {
+    gap: 2rem;
   }
 
   .lg\:divide-y-\[10px\] > :not([hidden]) ~ :not([hidden]) {
