@@ -25,13 +25,14 @@ $(
             rtl: true,
             dots: false,
             margin: 20,
-            center: true,
+
             responsive: {
                 0: {
                     items: 1,
                     dots: true,
                 },
                 800: {
+                    stagePadding: 50,
                     items: 2,
                 },
             }
@@ -68,9 +69,9 @@ $(
             responsive: {
                 0: {
                     items: 1,
-                    dots: true,
-                    center: true,
-                    margin: 0,
+                    dots: true,                    
+                    margin: 35,
+                    stagePadding: 50,
                 },
                 600: {
                     items: 2,

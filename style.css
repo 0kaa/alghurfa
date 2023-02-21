@@ -10,7 +10,7 @@ html {
 
 #section-1 .owl-prev,
 #section-1 .owl-next {
-  @apply bg-primary lg:w-[90px] lg:h-[90px] w-[35px] h-[35px] rounded-full flex items-center justify-center text-black lg:text-4xl text-lg;
+  @apply bg-primary lg:w-[60px] lg:h-[60px] w-[35px] h-[35px] rounded-full flex items-center justify-center text-black lg:text-2xl text-lg;
 }
 
 #section-1 .owl-prev {
@@ -27,6 +27,10 @@ html {
 }
 .owl-carousel .owl-dot.active {
   @apply !bg-primary;
+}
+
+#section-3 .owl-stage {
+  padding-right: 0 !important;
 }
 
 .archive-filter-list {
