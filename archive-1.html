@@ -203,11 +203,11 @@
             <div class="m-container mx-auto max-w-[1375px] sm:px-10 px-4 2xl:px-0">
                 <!-- Section 1 Starter -->
                 <section class="mb-24">
-                    <h3 class="mt-12 mb-14 font-extrabold lg:text-[45px] text-xl leading-normal text-center">
+                    <h3 class="mt-12 mb-8 text-xl font-extrabold text-center lg:text-3xl">
                         الأرشيــــــــــــــــــــــــــــــــــــــــــــــف</h3>
                     <!-- Mobile filter button -->
                     <button
-                        class="relative text-right archive-filter-button w-full shadow-md text-main font-extrabold px-6 py-3 rounded-[15px] bg-primary md:hidden mb-8">
+                        class="relative text-right archive-filter-button w-full shadow-md text-base font-extrabold px-6 py-3 rounded-[15px] bg-primary md:hidden mb-8">
                         <div class="flex items-center justify-between">
                             <span>التصفية</span>
                             <!-- chevron down -->
@@ -216,7 +216,7 @@
                     </button>
                     <!-- Filter component -->
                     <div
-                        class="fixed left-0 z-40 flex flex-col items-center w-full h-full gap-5 px-6 py-10 transition-all duration-300 ease-in-out bg-white lg:mb-16 filter-menu bottom-full md:justify-center md:bg-transparent md:relative md:flex-row md:w-auto md:h-auto">
+                        class="fixed left-0 z-40 flex flex-col items-center w-full h-full gap-5 px-6 py-10 transition-all duration-300 ease-in-out bg-white filter-menu bottom-full md:justify-center md:bg-transparent md:relative md:flex-row md:w-auto md:h-auto">
                         <!-- Close button (in mobile only) -->
                         <button
                             class="bg-primary close-filter-menu text-black w-[55px] h-[55px] flex items-center justify-center rounded-full mb-10 md:hidden">
@@ -229,32 +229,34 @@
                         </button>
                         <!-- Issues button component -->
                         <button
-                            class="relative text-right archive-filter-item md:w-[330px] w-full shadow-md md:text-main text-lg font-extrabold px-6 py-3 rounded-[10px] bg-[#F3F3F3]">
+                            class="relative text-right archive-filter-item md:w-[330px] w-full shadow-md md:text-main text-lg font-extrabold px-6 py-3 rounded-[10px] bg-[#F3F3F3] transition-all ease-in-out duration-300">
                             <div class="flex items-center justify-between">
                                 <span>الأعداد</span>
                                 <!-- chevron down -->
                                 <i class="fas fa-chevron-down"></i>
                             </div>
                             <div
-                                class="archive-filter-list xl:w-[456px] w-full pt-4 pb-6 shadow-lg border-[3px] border-primary rounded-[10px] px-3 offset-y divide-y-[5px] divide-[#F3F3F3] absolute mt-8 bg-white right-0">
+                                class="archive-filter-list w-full pt-4 pb-6 shadow-lg border-[3px] border-primary rounded-[10px] px-3 offset-y divide-y-[5px] divide-[#F3F3F3] absolute mt-8 bg-white right-0">
                                 <!-- Repeat this item with loop -->
-                                <div class="mb-7">
-                                    <h3
-                                        class="mb-3 text-lg font-extrabold leading-normal text-black md:mb-6 md:text-main">
+                                <div class="mb-4">
+                                    <h3 class="mb-3 text-lg font-extrabold leading-normal text-black md:text-main">
                                         2022</h3>
-                                    <ul class="pr-12 list-disc">
+                                    <ul class="pr-8 list-disc">
                                         <li>
-                                            <a href="#" class="text-lg font-normal leading-normal md:text-main">
+                                            <a href="#"
+                                                class="text-lg font-normal leading-normal transition-all duration-300 ease-in-out md:text-main hover:opacity-50">
                                                 العدد (أ)
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" class="text-lg font-normal leading-normal md:text-main">
+                                            <a href="#"
+                                                class="text-lg font-normal leading-normal transition-all duration-300 ease-in-out md:text-main hover:opacity-50">
                                                 العدد (ج)
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" class="text-lg font-normal leading-normal md:text-main">
+                                            <a href="#"
+                                                class="text-lg font-normal leading-normal transition-all duration-300 ease-in-out md:text-main hover:opacity-50">
                                                 العدد (و)
                                             </a>
                                         </li>
@@ -262,18 +264,19 @@
                                     </ul>
                                 </div>
                                 <!-- Repeated item without margin -->
-                                <div class="pt-4 md:pt-7">
-                                    <h3
-                                        class="mb-3 text-lg font-extrabold leading-normal text-black md:mb-6 md:text-main">
+                                <div class="pt-4">
+                                    <h3 class="mb-3 text-lg font-extrabold leading-normal text-black md:text-main">
                                         2021</h3>
-                                    <ul class="pr-12 list-disc">
+                                    <ul class="pr-8 list-disc">
                                         <li>
-                                            <a href="#" class="text-lg font-normal leading-normal md:text-main">
+                                            <a href="#"
+                                                class="text-lg font-normal leading-normal transition-all duration-300 ease-in-out md:text-main hover:opacity-50">
                                                 العدد (أ)
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" class="text-lg font-normal leading-normal md:text-main">
+                                            <a href="#"
+                                                class="text-lg font-normal leading-normal transition-all duration-300 ease-in-out md:text-main hover:opacity-50">
                                                 العدد (ج)
                                             </a>
                                         </li>
@@ -283,54 +286,62 @@
                         </button>
                         <!-- Subjects button component -->
                         <button
-                            class="relative text-right archive-filter-item md:w-[330px] w-full shadow-md md:text-main text-lg font-extrabold px-6 py-3 rounded-[10px] bg-[#F3F3F3]">
+                            class="relative text-right archive-filter-item md:w-[330px] w-full shadow-md md:text-main text-lg font-extrabold px-6 py-3 rounded-[10px] bg-[#F3F3F3] transition-all ease-in-out duration-300">
                             <div class="flex items-center justify-between">
                                 <span>المواضيع</span>
                                 <!-- chevron down -->
                                 <i class="fas fa-chevron-down"></i>
                             </div>
                             <div
-                                class="archive-filter-list xl:w-[456px] w-full pt-4 pb-6 shadow-lg border-[3px] border-primary rounded-[10px] px-3 offset-y divide-y-[5px] divide-[#F3F3F3] absolute mt-8 bg-white right-0">
+                                class="archive-filter-list w-full pt-4 pb-6 shadow-lg border-[3px] border-primary rounded-[10px] px-3 offset-y divide-y-[5px] divide-[#F3F3F3] absolute mt-8 bg-white right-0">
                                 <!-- Repeat this item with loop -->
 
-                                <ul class="pr-12 list-disc">
+                                <ul class="pr-8 list-disc">
                                     <li>
-                                        <a href="#" class="text-lg font-normal leading-normal md:text-main">
+                                        <a href="#"
+                                            class="text-lg font-normal leading-normal transition-all duration-300 ease-in-out md:text-main hover:opacity-50">
                                             مقدمة
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="text-lg font-normal leading-normal md:text-main">
+                                        <a href="#"
+                                            class="text-lg font-normal leading-normal transition-all duration-300 ease-in-out md:text-main hover:opacity-50">
                                             نصوص
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="text-lg font-normal leading-normal md:text-main">
+                                        <a href="#"
+                                            class="text-lg font-normal leading-normal transition-all duration-300 ease-in-out md:text-main hover:opacity-50">
                                             مراسلات
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="text-lg font-normal leading-normal md:text-main">
+                                        <a href="#"
+                                            class="text-lg font-normal leading-normal transition-all duration-300 ease-in-out md:text-main hover:opacity-50">
                                             توثيق
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="text-lg font-normal leading-normal md:text-main">
+                                        <a href="#"
+                                            class="text-lg font-normal leading-normal transition-all duration-300 ease-in-out md:text-main hover:opacity-50">
                                             قراءات
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="text-lg font-normal leading-normal md:text-main">
+                                        <a href="#"
+                                            class="text-lg font-normal leading-normal transition-all duration-300 ease-in-out md:text-main hover:opacity-50">
                                             إدراكات
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="text-lg font-normal leading-normal md:text-main">
+                                        <a href="#"
+                                            class="text-lg font-normal leading-normal transition-all duration-300 ease-in-out md:text-main hover:opacity-50">
                                             سير المساهمات/ون
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="text-lg font-normal leading-normal md:text-main">
+                                        <a href="#"
+                                            class="text-lg font-normal leading-normal transition-all duration-300 ease-in-out md:text-main hover:opacity-50">
                                             ملف خاص
                                         </a>
                                     </li>
@@ -341,54 +352,62 @@
                         </button>
                         <!-- Authors button component -->
                         <button
-                            class="relative text-right archive-filter-item md:w-[330px] w-full shadow-md md:text-main text-lg font-extrabold px-6 py-3 rounded-[10px] bg-[#F3F3F3]">
+                            class="relative text-right archive-filter-item md:w-[330px] w-full shadow-md md:text-main text-lg font-extrabold px-6 py-3 rounded-[10px] bg-[#F3F3F3] transition-all ease-in-out duration-300">
                             <div class="flex items-center justify-between">
                                 <span>المشاركين</span>
                                 <!-- chevron down -->
                                 <i class="fas fa-chevron-down"></i>
                             </div>
                             <div
-                                class="archive-filter-list xl:w-[456px] w-full pt-4 pb-6 shadow-lg border-[3px] border-primary rounded-[10px] px-3 offset-y divide-y-[5px] divide-[#F3F3F3] absolute mt-8 bg-white right-0">
+                                class="archive-filter-list w-full pt-4 pb-6 shadow-lg border-[3px] border-primary rounded-[10px] px-3 offset-y divide-y-[5px] divide-[#F3F3F3] absolute mt-8 bg-white right-0">
                                 <!-- Repeat this item with loop -->
 
-                                <ul class="pr-12 list-disc">
+                                <ul class="pr-8 list-disc">
                                     <li>
-                                        <a href="#" class="text-lg font-normal leading-normal md:text-main">
+                                        <a href="#"
+                                            class="text-lg font-normal leading-normal transition-all duration-300 ease-in-out md:text-main hover:opacity-50">
                                             مقدمة
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="text-lg font-normal leading-normal md:text-main">
+                                        <a href="#"
+                                            class="text-lg font-normal leading-normal transition-all duration-300 ease-in-out md:text-main hover:opacity-50">
                                             نصوص
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="text-lg font-normal leading-normal md:text-main">
+                                        <a href="#"
+                                            class="text-lg font-normal leading-normal transition-all duration-300 ease-in-out md:text-main hover:opacity-50">
                                             مراسلات
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="text-lg font-normal leading-normal md:text-main">
+                                        <a href="#"
+                                            class="text-lg font-normal leading-normal transition-all duration-300 ease-in-out md:text-main hover:opacity-50">
                                             توثيق
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="text-lg font-normal leading-normal md:text-main">
+                                        <a href="#"
+                                            class="text-lg font-normal leading-normal transition-all duration-300 ease-in-out md:text-main hover:opacity-50">
                                             قراءات
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="text-lg font-normal leading-normal md:text-main">
+                                        <a href="#"
+                                            class="text-lg font-normal leading-normal transition-all duration-300 ease-in-out md:text-main hover:opacity-50">
                                             إدراكات
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="text-lg font-normal leading-normal md:text-main">
+                                        <a href="#"
+                                            class="text-lg font-normal leading-normal transition-all duration-300 ease-in-out md:text-main hover:opacity-50">
                                             سير المساهمات/ون
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="text-lg font-normal leading-normal md:text-main">
+                                        <a href="#"
+                                            class="text-lg font-normal leading-normal transition-all duration-300 ease-in-out md:text-main hover:opacity-50">
                                             ملف خاص
                                         </a>
                                     </li>
@@ -409,26 +428,26 @@
                                     <img src="images/section-1-img.jpg">
                                 </div>
                                 <div class="text-center lg:text-start">
-                                    <h3 class="mb-6 text-xl font-bold lg:text-4xl text-dark">العدد (ج) لسنة 2022</h3>
+                                    <h3 class="mb-6 text-xl font-bold lg:text-2xl text-dark">العدد (ج) لسنة 2022</h3>
                                     <div
-                                        class="flex flex-wrap font-normal font-cairo lg:gap-5 gap-3 max-w-[700px] justify-center lg:justify-start">
+                                        class="flex flex-wrap font-normal font-cairo lg:gap-4 gap-3 max-w-[700px] justify-center lg:justify-start">
                                         <a href="#"
-                                            class="lg:px-8 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-main text-base">مقدمة</a>
+                                            class="transition-all ease-in-out duration-300 hover:bg-opacity-70 lg:px-4 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-base text-base">مقدمة</a>
                                         <a href="#"
-                                            class="lg:px-8 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-main text-base">نصوص</a>
+                                            class="transition-all ease-in-out duration-300 hover:bg-opacity-70 lg:px-4 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-base text-base">نصوص</a>
                                         <a href="#"
-                                            class="lg:px-8 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-main text-base">مراسلات</a>
+                                            class="transition-all ease-in-out duration-300 hover:bg-opacity-70 lg:px-4 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-base text-base">مراسلات</a>
                                         <a href="#"
-                                            class="lg:px-8 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-main text-base">توثيق</a>
+                                            class="transition-all ease-in-out duration-300 hover:bg-opacity-70 lg:px-4 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-base text-base">توثيق</a>
                                         <a href="#"
-                                            class="lg:px-8 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-main text-base">قراءت</a>
+                                            class="transition-all ease-in-out duration-300 hover:bg-opacity-70 lg:px-4 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-base text-base">قراءت</a>
                                         <a href="#"
-                                            class="lg:px-8 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-main text-base">إدراكات</a>
+                                            class="transition-all ease-in-out duration-300 hover:bg-opacity-70 lg:px-4 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-base text-base">إدراكات</a>
                                         <a href="#"
-                                            class="lg:px-8 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-main text-base">سير
+                                            class="transition-all ease-in-out duration-300 hover:bg-opacity-70 lg:px-4 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-base text-base">سير
                                             المساهِمات/ون</a>
                                         <a href="#"
-                                            class="lg:px-8 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-main text-base">ملف
+                                            class="transition-all ease-in-out duration-300 hover:bg-opacity-70 lg:px-4 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-base text-base">ملف
                                             خاص
                                             عن أليساندرو سبينا</a>
                                     </div>
@@ -441,26 +460,26 @@
                                     <img src="images/section-1-img.jpg">
                                 </div>
                                 <div class="text-center lg:text-start">
-                                    <h3 class="mb-6 text-xl font-bold lg:text-4xl text-dark">العدد (ج) لسنة 2022</h3>
+                                    <h3 class="mb-6 text-xl font-bold lg:text-2xl text-dark">العدد (ج) لسنة 2022</h3>
                                     <div
-                                        class="flex flex-wrap font-normal font-cairo lg:gap-5 gap-3 max-w-[700px] justify-center lg:justify-start">
+                                        class="flex flex-wrap font-normal font-cairo lg:gap-4 gap-3 max-w-[700px] justify-center lg:justify-start">
                                         <a href="#"
-                                            class="lg:px-8 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-main text-base">مقدمة</a>
+                                            class="transition-all ease-in-out duration-300 hover:bg-opacity-70 lg:px-4 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-base text-base">مقدمة</a>
                                         <a href="#"
-                                            class="lg:px-8 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-main text-base">نصوص</a>
+                                            class="transition-all ease-in-out duration-300 hover:bg-opacity-70 lg:px-4 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-base text-base">نصوص</a>
                                         <a href="#"
-                                            class="lg:px-8 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-main text-base">مراسلات</a>
+                                            class="transition-all ease-in-out duration-300 hover:bg-opacity-70 lg:px-4 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-base text-base">مراسلات</a>
                                         <a href="#"
-                                            class="lg:px-8 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-main text-base">توثيق</a>
+                                            class="transition-all ease-in-out duration-300 hover:bg-opacity-70 lg:px-4 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-base text-base">توثيق</a>
                                         <a href="#"
-                                            class="lg:px-8 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-main text-base">قراءت</a>
+                                            class="transition-all ease-in-out duration-300 hover:bg-opacity-70 lg:px-4 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-base text-base">قراءت</a>
                                         <a href="#"
-                                            class="lg:px-8 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-main text-base">إدراكات</a>
+                                            class="transition-all ease-in-out duration-300 hover:bg-opacity-70 lg:px-4 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-base text-base">إدراكات</a>
                                         <a href="#"
-                                            class="lg:px-8 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-main text-base">سير
+                                            class="transition-all ease-in-out duration-300 hover:bg-opacity-70 lg:px-4 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-base text-base">سير
                                             المساهِمات/ون</a>
                                         <a href="#"
-                                            class="lg:px-8 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-main text-base">ملف
+                                            class="transition-all ease-in-out duration-300 hover:bg-opacity-70 lg:px-4 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-base text-base">ملف
                                             خاص
                                             عن أليساندرو سبينا</a>
                                     </div>
@@ -468,68 +487,69 @@
                             </div>
                             <!-- Item component -->
                             <div
-                                class="flex items-center flex-col lg:flex-row px-4 lg:gap-[60px] gap-5 lg:py-14  bg-primary lg:bg-transparent lg:mt-0 mt-[100px] pb-8">
+                                class="flex items-center flex-col lg:flex-row px-4 lg:gap-[60px] gap-5 lg:py-14 bg-primary lg:bg-transparent lg:mt-0 mt-[100px] pb-8">
                                 <div class="-mt-[100px] lg:mt-0">
                                     <img src="images/section-1-img.jpg">
                                 </div>
                                 <div class="text-center lg:text-start">
-                                    <h3 class="mb-6 text-xl font-bold lg:text-4xl text-dark">العدد (ج) لسنة 2022</h3>
+                                    <h3 class="mb-6 text-xl font-bold lg:text-2xl text-dark">العدد (ج) لسنة 2022</h3>
                                     <div
-                                        class="flex flex-wrap font-normal font-cairo lg:gap-5 gap-3 max-w-[700px] justify-center lg:justify-start">
+                                        class="flex flex-wrap font-normal font-cairo lg:gap-4 gap-3 max-w-[700px] justify-center lg:justify-start">
                                         <a href="#"
-                                            class="lg:px-8 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-main text-base">مقدمة</a>
+                                            class="transition-all ease-in-out duration-300 hover:bg-opacity-70 lg:px-4 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-base text-base">مقدمة</a>
                                         <a href="#"
-                                            class="lg:px-8 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-main text-base">نصوص</a>
+                                            class="transition-all ease-in-out duration-300 hover:bg-opacity-70 lg:px-4 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-base text-base">نصوص</a>
                                         <a href="#"
-                                            class="lg:px-8 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-main text-base">مراسلات</a>
+                                            class="transition-all ease-in-out duration-300 hover:bg-opacity-70 lg:px-4 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-base text-base">مراسلات</a>
                                         <a href="#"
-                                            class="lg:px-8 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-main text-base">توثيق</a>
+                                            class="transition-all ease-in-out duration-300 hover:bg-opacity-70 lg:px-4 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-base text-base">توثيق</a>
                                         <a href="#"
-                                            class="lg:px-8 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-main text-base">قراءت</a>
+                                            class="transition-all ease-in-out duration-300 hover:bg-opacity-70 lg:px-4 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-base text-base">قراءت</a>
                                         <a href="#"
-                                            class="lg:px-8 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-main text-base">إدراكات</a>
+                                            class="transition-all ease-in-out duration-300 hover:bg-opacity-70 lg:px-4 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-base text-base">إدراكات</a>
                                         <a href="#"
-                                            class="lg:px-8 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-main text-base">سير
+                                            class="transition-all ease-in-out duration-300 hover:bg-opacity-70 lg:px-4 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-base text-base">سير
                                             المساهِمات/ون</a>
                                         <a href="#"
-                                            class="lg:px-8 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-main text-base">ملف
+                                            class="transition-all ease-in-out duration-300 hover:bg-opacity-70 lg:px-4 lg:py-2 pb-4 lg:text-white text-dark border-b-[2px] border-b-dark lg:border-b-0 lg:bg-black lg:rounded-lg lg:shadow-lg lg:text-base text-base">ملف
                                             خاص
                                             عن أليساندرو سبينا</a>
                                     </div>
                                 </div>
                             </div>
                             <!-- Pagination component -->
-                            <div class="flex items-center justify-center lg:gap-3 gap-1 lg:pt-[110px] pt-14" dir="ltr">
+                            <div class="flex items-center justify-center lg:gap-3 flex-wrap gap-2 lg:pt-[110px] pt-14"
+                                dir="ltr">
                                 <a href="#"
-                                    class="paginate-item bg-[#F3F3F3] w-[35px] h-[35px] lg:w-[70px] lg:h-[70px] rounded-full font-semibold lg:text-main text-md text-black flex items-center justify-center">
+                                    class="paginate-item bg-[#F3F3F3] w-[35px] h-[35px] lg:w-[50px] lg:h-[50px] rounded-full font-semibold lg:text-base text-md text-black flex items-center justify-center">
                                     <i class="fas fa-arrow-left"></i>
                                 </a>
                                 <a href="#"
-                                    class="paginate-item bg-[#F3F3F3] w-[35px] h-[35px] lg:w-[70px] lg:h-[70px] rounded-full font-semibold lg:text-main text-md text-black flex items-center justify-center active">
+                                    class="paginate-item bg-[#F3F3F3] w-[35px] h-[35px] lg:w-[50px] lg:h-[50px] rounded-full font-semibold lg:text-base text-md text-black flex items-center justify-center active">
                                     1
                                 </a>
                                 <a href="#"
-                                    class="paginate-item bg-[#F3F3F3] w-[35px] h-[35px] lg:w-[70px] lg:h-[70px] rounded-full font-semibold lg:text-main text-md text-black flex items-center justify-center">
+                                    class="paginate-item bg-[#F3F3F3] w-[35px] h-[35px] lg:w-[50px] lg:h-[50px] rounded-full font-semibold lg:text-base text-md text-black flex items-center justify-center">
                                     2
                                 </a>
                                 <a href="#"
-                                    class="paginate-item bg-[#F3F3F3] w-[35px] h-[35px] lg:w-[70px] lg:h-[70px] rounded-full font-semibold lg:text-main text-md text-black flex items-center justify-center">
+                                    class="paginate-item bg-[#F3F3F3] w-[35px] h-[35px] lg:w-[50px] lg:h-[50px] rounded-full font-semibold lg:text-base text-md text-black flex items-center justify-center">
                                     3
                                 </a>
                                 <a href="#"
-                                    class="paginate-item bg-[#F3F3F3] w-[35px] h-[35px] lg:w-[70px] lg:h-[70px] rounded-full font-semibold lg:text-main text-md text-black flex items-center justify-center">
+                                    class="paginate-item bg-[#F3F3F3] w-[35px] h-[35px] lg:w-[50px] lg:h-[50px] rounded-full font-semibold lg:text-base text-md text-black flex items-center justify-center">
                                     4
                                 </a>
                                 <a href="#"
-                                    class="paginate-item bg-[#F3F3F3] w-[35px] h-[35px] lg:w-[70px] lg:h-[70px] rounded-full font-semibold lg:text-main text-md text-black flex items-center justify-center">
+                                    class="paginate-item bg-[#F3F3F3] w-[35px] h-[35px] lg:w-[50px] lg:h-[50px] rounded-full font-semibold lg:text-base text-md text-black flex items-center justify-center">
                                     5
                                 </a>
                                 <a href="#"
-                                    class="paginate-item bg-[#F3F3F3] w-[35px] h-[35px] lg:w-[70px] lg:h-[70px] rounded-full font-semibold lg:text-main text-md text-black flex items-center justify-center">
+                                    class="paginate-item bg-[#F3F3F3] w-[35px] h-[35px] lg:w-[50px] lg:h-[50px] rounded-full font-semibold lg:text-base text-md text-black flex items-center justify-center">
                                     6
                                 </a>
                                 <a href="#"
-                                    class="paginate-item bg-[#F3F3F3] w-[35px] h-[35px] lg:w-[70px] lg:h-[70px] rounded-full font-semibold lg:text-main text-md text-black flex items-center justify-center active">
+                                    class="paginate-item bg-[#F3F3F3] w-[35px] h-[35px] lg:w-[50px] lg:h-[50px] rounded-full font-semibold lg:text-base text-md text-black flex items-center justify-center active">
                                     <i class="fas fa-arrow-right"></i>
                                 </a>
 
