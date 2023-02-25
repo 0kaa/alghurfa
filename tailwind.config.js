@@ -13,7 +13,7 @@ module.exports = {
       // fonts
       fontFamily: {
         cairo: ['Cairo', 'sans-serif'],
-        inter: ['Inter', 'sans-serif'],
+        notoSans: ['Noto Sans Arabic', 'sans-serif'],
       },
       // font sizes
       fontSize: {
