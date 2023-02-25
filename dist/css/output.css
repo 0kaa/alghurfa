@@ -790,6 +790,10 @@ video {
   width: 285px;
 }
 
+.\!w-\[285px\] {
+  width: 285px !important;
+}
+
 .max-w-\[1375px\] {
   max-width: 1375px;
 }
@@ -2040,6 +2044,10 @@ html {
 
   .lg\:text-\[26px\] {
     font-size: 26px;
+  }
+
+  .lg\:text-\[28px\] {
+    font-size: 28px;
   }
 
   .lg\:font-light {
