@@ -6,6 +6,7 @@ body,
 html {
   height: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 #section-1 .owl-prev,
@@ -33,6 +34,11 @@ html {
   padding-right: 0 !important;
 }
 
+#circles-section .owl-item.center > a {
+  @apply !bg-white;
+}
+/* odd vs  */
+
 .archive-filter-list {
   display: none;
   z-index: 10;
@@ -57,4 +63,26 @@ html {
 }
 .filter-menu.active {
   @apply bottom-0;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+.sticky + main {
+  /* padding-top: 218px; */
+  @apply lg:pt-[218px] pt-[64px]
+}
+
+header {
+  transition: all 0.5s ease-in-out;
+  top: -50%;
+}
+.header-logo {
+  @apply transition-all duration-500 ease-in-out;
+}
+.sticky .header-logo {
+  @apply lg:py-4;
 }
