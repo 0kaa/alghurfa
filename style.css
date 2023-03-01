@@ -68,10 +68,10 @@ html {
   @apply shadow-lg shadow-[#00000068] lg:!pb-[14px];
 }
 .header-sticky .menu-item-list {
-  @apply !gap-2;
+  /* @apply !gap-2; */
 }
 .header-sticky .menu-item-list a {
-  @apply md:!pr-2;
+  /* @apply md:!pr-2; */
 }
 
 .header-sticky  {

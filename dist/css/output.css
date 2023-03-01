@@ -682,6 +682,10 @@ video {
   margin-left: 260px !important;
 }
 
+.ml-\[260px\] {
+  margin-left: 260px;
+}
+
 .block {
   display: block;
 }
@@ -1481,13 +1485,11 @@ html {
 }
 
 .header-sticky .menu-item-list {
-  gap: 0.5rem !important;
+  /* @apply !gap-2; */
 }
 
-@media (min-width: 768px) {
-  .header-sticky .menu-item-list a {
-    padding-right: 0.5rem !important;
-  }
+.header-sticky .menu-item-list a {
+  /* @apply md:!pr-2; */
 }
 
 .header-sticky {
@@ -1744,6 +1746,10 @@ html {
     gap: 27px;
   }
 
+  .md\:gap-\[13px\] {
+    gap: 13px;
+  }
+
   .md\:gap-\[50px\] {
     gap: 50px;
   }
@@ -1801,6 +1807,10 @@ html {
 
   .md\:pr-6 {
     padding-right: 1.5rem;
+  }
+
+  .md\:pr-\[13px\] {
+    padding-right: 13px;
   }
 
   .md\:text-start {

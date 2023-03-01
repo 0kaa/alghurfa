@@ -56,7 +56,7 @@ $(function () {
   $("#circles-section").owlCarousel({
     items: 3,
     rtl: true,
-    loop: true,
+    loop: false,
     dots: false,
     margin: 0,
     responsive: {
