@@ -67,13 +67,7 @@ html {
 .header-sticky .menu-list {
   @apply shadow-lg shadow-[#00000068] lg:!pb-[14px];
 }
-.header-sticky .menu-item-list {
-  /* @apply !gap-2; */
-}
-.header-sticky .menu-item-list a {
-  /* @apply md:!pr-2; */
-}
 
-.header-sticky  {
+.header-sticky {
   @apply fixed w-full md:relative md:w-auto z-50 shadow-lg shadow-[#0000005b] md:shadow-none;
 }

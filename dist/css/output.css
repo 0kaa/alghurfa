@@ -670,8 +670,8 @@ video {
   margin-top: 0.5rem;
 }
 
-.ml-\[410px\] {
-  margin-left: 410px;
+.ml-\[260px\] {
+  margin-left: 260px;
 }
 
 .mt-4 {
@@ -680,10 +680,6 @@ video {
 
 .\!ml-\[260px\] {
   margin-left: 260px !important;
-}
-
-.ml-\[260px\] {
-  margin-left: 260px;
 }
 
 .block {
@@ -1482,14 +1478,6 @@ html {
   .header-sticky .menu-list {
     padding-bottom: 14px !important;
   }
-}
-
-.header-sticky .menu-item-list {
-  /* @apply !gap-2; */
-}
-
-.header-sticky .menu-item-list a {
-  /* @apply md:!pr-2; */
 }
 
 .header-sticky {
