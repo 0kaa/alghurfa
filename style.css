@@ -50,7 +50,7 @@ html {
 
 .overlay {
   display: none;
-}
+}§
 .overlay.active {
   display: block;
 }
@@ -68,7 +68,7 @@ html {
   @apply shadow-lg shadow-transparent;
 }
 .header-sticky .menu-list {
-  @apply shadow-lg shadow-[#00000068] lg:!pb-[14px];
+  @apply shadow-lg shadow-[#00000068];
 }
 
 .header-sticky {
