@@ -72,7 +72,6 @@ $(function () {
       },
       1350: {
         items: 3,
-        center: true,
       },
     },
   });
