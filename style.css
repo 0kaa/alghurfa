@@ -64,6 +64,9 @@ html {
 .filter-menu.active {
   @apply bottom-0;
 }
+.menu-list {
+  @apply shadow-lg shadow-transparent;
+}
 .header-sticky .menu-list {
   @apply shadow-lg shadow-[#00000068] lg:!pb-[14px];
 }
